@@ -1,9 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
 import background from '../assets/images/background.svg';
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: ['Roboto:400,700', 'sans-serif'],
+  },
+});
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
   * {
     margin: 0;
     padding: 0;
@@ -13,11 +18,11 @@ export default createGlobalStyle`
 
   body {
     background: #191920 url(${background}) no-repeat center top;
-    -webkit-font-smoothing: antialised;
   }
 
   body, input, button {
-    font: 14px Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
   }
 
   #root {
