@@ -4,7 +4,6 @@ module.exports = {
     es6: true,
   },
   extends: [
-    'airbnb',
     'prettier',
     'prettier/react',
   ],
@@ -32,6 +31,6 @@ module.exports = {
     "semi": "error",
     'eol-last': "error",
     'import/prefer-default-export': 'off',
-    'linebreak-style': 0
+    'linebreak-style': 0,
   },
 };
