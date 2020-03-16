@@ -1,14 +1,11 @@
 <h1 align="center">
     <img alt="RocketShoes" src="rocketshoes.png"/>
-    <br>
-    <br>
     Rocketshoes
 </h1>
 
-<p align="center">
-  Implementação front-end web de um e-commerce utilizando [React JS](https://reactjs.org/).
-</p>
+# Rocketshoes
 
+Implementação front-end web de um e-commerce utilizando [React JS](https://reactjs.org/).
 
 ## :information_source: Sobre
 
@@ -21,10 +18,16 @@ O projeto consiste em um frontend web que consome uma API REST servida por uma i
 ### :hammer_and_wrench: Configuração e inicialização
 
 Instale as dependências
-`yarn`
+```
+yarn
+```
 
 Inicie o servidor fake para prover as rotas da API consumidas pela aplicação (parâmetro -d opcional)
-`json-server server.json -p 3333 -w -d 300`
+```
+json-server server.json -p 3333 -w -d 300
+```
 
 Inicie a aplicação
-`yarn start`
+```
+yarn start
+```
