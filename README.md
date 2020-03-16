@@ -1,9 +1,6 @@
 <h1 align="center">
     <img alt="RocketShoes" src="rocketshoes.png"/>
-    Rocketshoes
 </h1>
-
-# Rocketshoes
 
 Implementação front-end web de um e-commerce utilizando [React JS](https://reactjs.org/).
 
